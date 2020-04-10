@@ -24,6 +24,8 @@ Vue.component('products-component', require('./components/product/ProductCompone
 Vue.component('product-card-component', require('./components/product/ProductCardComponent.vue').default);
 Vue.component('material-transition-group', require('./components/animation/MaterialCollectionComponent.vue').default);
 
+Vue.component('add-product-btn', require('./components/product/AddToCartComponent.vue').default); 
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
