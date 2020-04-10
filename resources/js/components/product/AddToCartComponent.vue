@@ -23,7 +23,7 @@ export default {
                         'Content-Type' : 'application/json'
                     }
                 }).then(()=>{
-                    console.log('Se agregó el producto');
+                    window.store.commit("increment");
                 });
         }
     }
