@@ -10,7 +10,7 @@
                     <h4 class="card-subtitle">{{ $product->price }}</h4>
                     <p class="card-text">{{ $product->description }}</p>
                     <div class="card-actions">
-                       <add-product-btn></add-product-btn>
+                       <add-product-btn :product='{!! json_encode($product) !!}'></add-product-btn>
                         @include('product.delete')
                     </div>
                 </div>
