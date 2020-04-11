@@ -16,7 +16,8 @@ class ShoppingCart extends Model
     }
 
     public function products(){
-        return $this->belongsToMany('App\Product','product_in_shopping_carts');
+        //$query = 
+        return $this->belongsToMany('App\Product','product_in_shopping_carts'); //CAMBIAR, ADICIONAR UN CONTADOR
     }
 
     public function productsCount(){
